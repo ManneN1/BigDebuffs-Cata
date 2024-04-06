@@ -8,7 +8,7 @@ The addon menu can be accessed by typing /bd or /bigdebuffs.
 
 To download this addon, hit the **green "Code" button** and then select `Download ZIP`.
 
-Once the addon is finished downloading, extract the contents to your `Interface/AddOns` directory and **importantly** rename the folder from `BigDebuffs-Cata-master` to `BigDebuffs`.
+Once the addon is finished downloading, extract the contents to your `Interface/AddOns` directory and **importantly** rename the folder from `BigDebuffs-Cata-main` to `BigDebuffs`.
 
 ### Backport Notes
 The backport is based on BfA BigDebuffs. However, the backport does not contain any raid frame modifications (number of debuffs shown / crowd control effects). The backport is essentially a much improved version of LoseControl.
