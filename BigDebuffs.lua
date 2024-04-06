@@ -468,11 +468,11 @@ function BigDebuffs:OnEnable()
     if OmniCC then
         self:RawHook(OmniCC, "TriggerEffect", function(...)
             local _, cooldown = ...
-			if cooldown.GetName then
-				local name = cooldown:GetName()
-				if name and name:find(addonName) then return end
-				self.hooks[OmniCC].TriggerEffect(...)
-			end
+            if cooldown.GetName then
+                local name = cooldown:GetName()
+                if name and name:find(addonName) then return end
+                self.hooks[OmniCC].TriggerEffect(...)
+            end
         end, true)
     end
 
