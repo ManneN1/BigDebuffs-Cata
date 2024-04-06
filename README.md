@@ -8,13 +8,15 @@ The addon menu can be accessed by typing /bd or /bigdebuffs.
 
 To download this addon, hit the **green "Code" button** and then select `Download ZIP`.
 
-Once the addon is finished downloading, extract the contents to your `Interface/AddOns` directory and **importantly** rename the folder from `BigDebuffs-WoTLK-master` to `BigDebuffs`.
+Once the addon is finished downloading, extract the contents to your `Interface/AddOns` directory and **importantly** rename the folder from `BigDebuffs-Cata-main` to `BigDebuffs`.
 
 ### Backport Notes
-The backport is based on BfA BigDebuffs. However, the backport does not contain any raid frame modifications (number of debuffs shown / crowd control effects) since the new raid frames do not exist in WotLK (they were implemented in Cataclysm). The backport is essentially a much improved version of LoseControl.
+The backport is based on BfA BigDebuffs. However, the backport does not contain any raid frame modifications (number of debuffs shown / crowd control effects). The backport is essentially a much improved version of LoseControl.
 
-The backport now supports the backported version of **[Masque][1]**! Note: When changing anchor from Manual -> Automatic you have to reload if you are using Masque (it will look buggy until you do).
-The Masque backport also works in Cata!
+The backport now supports the backported version of **[Masque][1]**!
+
+Note: When changing anchor from Manual -> Automatic you have to reload if you are using Masque (it will look buggy until you do).
+The Masque backport also works in Cata, even though it's for WotLK!
 
 The backport now supports fully rounded corners by implementing **[CircleCooldownTemplate][2]** as an internal library!
 
@@ -30,7 +32,7 @@ The backport now supports fully rounded corners by implementing **[CircleCooldow
 
 > [Bruen][6] for the initial Cata library update, Cata spell ID list, and also some timer related things.
 
-[1]: https://github.com/bkader/Masque-WoTLK
+[1]: https://github.com/bkader/Masque-Cata
 [2]: https://github.com/RomanSpector/CircleCooldownTemplate
 [3]: https://github.com/jordonwow
 [4]: https://github.com/jakeswork
