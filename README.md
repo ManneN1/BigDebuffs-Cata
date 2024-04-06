@@ -13,8 +13,10 @@ Once the addon is finished downloading, extract the contents to your `Interface/
 ### Backport Notes
 The backport is based on BfA BigDebuffs. However, the backport does not contain any raid frame modifications (number of debuffs shown / crowd control effects). The backport is essentially a much improved version of LoseControl.
 
-The backport now supports the backported version of **[Masque][1]**! Note: When changing anchor from Manual -> Automatic you have to reload if you are using Masque (it will look buggy until you do).
-The Masque backport also works in Cata!
+The backport now supports the backported version of **[Masque][1]**!
+
+Note: When changing anchor from Manual -> Automatic you have to reload if you are using Masque (it will look buggy until you do).
+The Masque backport also works in Cata, even though it's for WotLK!
 
 The backport now supports fully rounded corners by implementing **[CircleCooldownTemplate][2]** as an internal library!
 
