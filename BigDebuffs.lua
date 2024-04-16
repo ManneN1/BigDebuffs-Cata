@@ -286,7 +286,7 @@ function BigDebuffs:AttachUnitFrame(unit)
         frame.icon:SetDrawLayer("BORDER")
         frame.cooldown:SetParent(frame)
         frame.cooldown:SetAllPoints()
-        frame.cooldown:SetAlpha(0.9)
+        frame.cooldown:SetAlpha(1)
         frame.cooldown:Hide()
 
         frame.cooldownCircular = CreateFrame("Frame", frameName.."CooldownCircular", frame, "CircleCooldownFrameTemplate")
@@ -295,7 +295,7 @@ function BigDebuffs:AttachUnitFrame(unit)
         frame.cooldownCircular:SetReverse(true)
         frame.cooldownCircular:SetParent(frame)
         frame.cooldownCircular:SetAllPoints()
-        frame.cooldownCircular:SetAlpha(0.9)
+        frame.cooldownCircular:SetAlpha(1)
         frame.cooldownCircular:Hide()
 
         -- Needed for the circle cooldown to end up behind the unit frame level and borders
