@@ -169,6 +169,7 @@ addon.Spells = {
     [18425] = { type = CROWD_CONTROL, }, -- Silence (Improved Kick)
     [31224] = { type = IMMUNITY_SPELL, },  -- Cloak of Shadows
     [1766] = { type = INTERRUPT, duration = 5, },  -- Kick
+    [1856] = { type = BUFF_OTHER, }, -- Vanish
     -- Shaman
     [16166] = { type = BUFF_OFFENSIVE, }, -- Elemental Mastery (Instant Cast)
     [2825] = { type = BUFF_OFFENSIVE, },  -- Bloodlust
@@ -227,6 +228,9 @@ addon.Spells = {
     [23920] = { type = IMMUNITY_SPELL, },  -- Spell Reflection
     [6552] = { type = INTERRUPT, duration = 4, },  -- Pummel
     -- Misc
+    [5215] = { type = BUFF_OTHER, },  -- Prowl
+    [1784] = { type = BUFF_OTHER, },  -- Stealth
+    [58984] = { type = BUFF_OTHER, }, -- Shadowmeld
     [43183] = { type = BUFF_OTHER, },  -- Drink (Arena/Lvl 80 Water)
         [57073] = { type = BUFF_OTHER }, -- (Mage Water)
     [20549] = { type = CROWD_CONTROL, },  -- War Stomp
