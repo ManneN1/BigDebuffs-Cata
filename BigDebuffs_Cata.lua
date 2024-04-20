@@ -38,7 +38,7 @@ addon.Spells = {
     [48707] = { type = IMMUNITY_SPELL, },  -- Anti-Magic Shell
     [49039] = { type = IMMUNITY_SPELL, },  -- Lichborne
     [53550] = { type = INTERRUPT, duration = 4, },  -- Mind Freeze
-    [49016] = { type = BUFFS_OFFENSIVE, }, -- Unholy Frenzy
+    [49016] = { type = BUFF_OFFENSIVE, }, -- Unholy Frenzy
     -- Druid
     [22842] = { type = BUFF_DEFENSIVE, },  -- Frenzied Regeneration
     [17116] = { type = BUFF_DEFENSIVE, }, -- Nature's Swiftness
