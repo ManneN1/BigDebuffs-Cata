@@ -38,6 +38,7 @@ addon.Spells = {
     [48707] = { type = IMMUNITY_SPELL, },  -- Anti-Magic Shell
     [49039] = { type = IMMUNITY_SPELL, },  -- Lichborne
     [53550] = { type = INTERRUPT, duration = 4, },  -- Mind Freeze
+    [49016] = { type = BUFFS_OFFENSIVE, } -- Unholy Frenzy
     -- Druid
     [22842] = { type = BUFF_DEFENSIVE, },  -- Frenzied Regeneration
     [17116] = { type = BUFF_DEFENSIVE, }, -- Nature's Swiftness
@@ -78,6 +79,7 @@ addon.Spells = {
     [19574] = { type = IMMUNITY, }, -- Bestial Wrath (Pet)
     [24394] = { type = CROWD_CONTROL, },  -- Intimidation (Stun)
         [19577] = { type = BUFF_OFFENSIVE, }, -- Intimidation (Pet Buff)
+    [90337] = { type = CROWD_CONTROL, }, -- Bad Manner (Pet)
     [19386] = { type = CROWD_CONTROL, },  -- Wyvern Sting
     [19503] = { type = CROWD_CONTROL, },  -- Scatter Shot
     [3355] = { type = CROWD_CONTROL, },  -- Freezing Trap
@@ -115,6 +117,7 @@ addon.Spells = {
     [45438] = { type = IMMUNITY, },  -- Ice Block
     [122] = { type = ROOT, },  -- Frost Nova
     [2139] = { type = INTERRUPT, duration = 6, },  -- Counterspell (Mage)
+    [54759] = { type = BUFF_OTHER, }, -- Burning Determination
     -- Paladin
     [54428] = { type = BUFF_OTHER, }, -- Divine Plea
     [96263] = { type = BUFF_OTHER, }, -- Sacred Shield Proc
@@ -152,6 +155,7 @@ addon.Spells = {
     [605] = { type = CROWD_CONTROL, },  -- Mind Control
     [9484] = { type = CROWD_CONTROL, },  -- Shackle Undead
     [96231] = { type = INTERRUPT, duration = 4 }, -- Rebuke
+	[62618] = { type = BUFF_DEFENSIVE, }, -- Strength of Soul
     -- Rogue
     [51713] = { type = BUFF_OFFENSIVE, }, -- Shadow Dance
     [13750] = { type = BUFF_OFFENSIVE, },  -- Adrenaline Rush
