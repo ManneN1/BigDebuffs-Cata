@@ -96,6 +96,7 @@ addon.Spells = {
     [4167] = { type = ROOT, }, -- Web (Pet)
     [26090] = { type = INTERRUPT, duration = 2, }, -- Pummel (Pet)
     -- Mage
+    [82691] = { type = CROWD_CONTROL, },  -- Ring of Frost
     [11426] = { type = BUFF_OTHER, },  -- Ice Barrier
     [12472] = { type = BUFF_OFFENSIVE, },  -- Icy Veins
     [12042] = { type = BUFF_OFFENSIVE, },  -- Arcane Power
